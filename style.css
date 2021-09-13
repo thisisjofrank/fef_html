@@ -38,7 +38,7 @@ p {
 
 .neutral-theme {
     background-color: white;
-    --button-color: var(--primary)
+    --button-color: var(--primary);
     --button-hover-color: white;
 }
 
