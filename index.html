@@ -4,12 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <title>Jo is Awesome</title>
 </head>
 <body>
     <header class="neutral-theme">
-        <h1>Hello! My name is <span>Jo Franchetti</span>.<br>I'm a Web Developer</h1>
-        <a href="#" class="button">Find out more</a>
+        <h1>Hello! My name is <span class="header-highlight">Jo Franchetti</span>.<br>I'm a Web Developer</h1>
+        <a href="#" class="button header-link">Find out more</a>
     </header>
     <main>
         <section class="about primary-theme">
@@ -28,49 +30,58 @@
                 <cite>- Richard Westenra</cite>
             </blockquote>
         </section>
-        <section>
+        <section class="neutral-theme">
             <h2>Projects</h2>
             <article>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
-                <a href="#">See it live</a>
-                <a href="#">Fork it on Github</a>
-                <img src="/images/project.jpg" alt="placeholder alt text">
+                <div class="article-text">
+                    <h3>Project Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
+                    <a href="#" class="button">See it live</a>
+                    <a href="#" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/project.jpg" class="article-img" alt="placeholder alt text">
             </article>
             <article>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
-                <a href="#">See it live</a>
-                <a href="#">Fork it on Github</a>
-                <img src="/images/project.jpg" alt="placeholder alt text">
+                <div class="article-text">
+                    <h3>Project Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
+                    <a href="#" class="button">See it live</a>
+                    <a href="#" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/project.jpg" class="article-img" alt="placeholder alt text">
             </article>
             <article>
-                <h3>Project Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
-                <a href="#">See it live</a>
-                <a href="#">Fork it on Github</a>
-                <img src="/images/project.jpg" alt="placeholder alt text">
+                <div class="article-text">
+                    <h3>Project Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur sem non sapien mattis, eu ornare orci ultrices. Etiam tincidunt tincidunt interdum. Nam vehicula at orci sodales mollis. Cras sagittis sodales iaculis.</p>
+                    <a href="#" class="button">See it live</a>
+                    <a href="#" class="button">Fork it on Github</a>
+                </div>
+                <img src="/images/project.jpg" class="article-img" alt="placeholder alt text">
             </article>
         </section>
-        <section>
+        <section class="contact primary-theme">
             <h2>Contact</h2>
             <p>If you'd like to work with me, you can drop me a message!</p>
-            <a href="mailto:email@example.com">Let's Talk</a>
+            <a href="mailto:email@example.com" class="button">Let's Talk</a>
         </section>
     </main>
     <footer>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/jofranchetti/">LinkedIn</a>
+        <ul class="social">
+            <li class="social-item">
+                <a class="social-link linkedin" href="https://www.linkedin.com/in/jofranchetti/">LinkedIn</a>
             </li>
-            <li>
-                <a href="https://twitter.com/ThisIsJoFrank">Twitter</a>
+            <li class="social-item">
+                <a class="social-link twitter" href="https://twitter.com/ThisIsJoFrank">Twitter</a>
             </li>
-            <li>
-                <a href="https://github.com/thisisjofrank">GitHub</a>
+            <li class="social-item">
+                <a class="social-link github" href="https://github.com/thisisjofrank">GitHub</a>
             </li>
-            <li>
-                <a href="#">YouTube</a>
+            <li class="social-item">
+                <a class="social-link youtube" href="#">YouTube</a>
             </li>
         </ul>
         <p>&copy; 2021 - Portfolio design by Jo Franchetti</p>
